@@ -14,6 +14,20 @@
       "match": 3,
       "type": "InitializationError",
       "game_steps": 0
+    },
+    {
+      "match": 4,
+      "bot1_avg_step_time": 0.00024917116,
+      "bot1_tags": [],
+      "bot2_avg_step_time": 0.00024404078,
+      "bot2_tags": [],
+      "type": "Player1Win",
+      "game_steps": 2056
+    },
+    {
+      "match": 5,
+      "type": "InitializationError",
+      "game_steps": 0
     }
   ]
 }

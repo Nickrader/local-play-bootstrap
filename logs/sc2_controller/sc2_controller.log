@@ -1,17 +1,17 @@
-2024-08-10T03:31:41.734217Z DEBUG sc2_controller/src/main.rs:123: listening on 0.0.0.0:8083
-2024-08-10T03:31:41.748507Z DEBUG sc2_controller/src/main.rs:96: started POST /terminate_all
-2024-08-10T03:31:41.748581Z DEBUG sc2_controller/src/main.rs:99: response generated in 84.913µs
-2024-08-10T03:31:41.748958Z DEBUG sc2_controller/src/main.rs:96: started GET /find_map/BerlingradAIE
-2024-08-10T03:31:41.749050Z DEBUG sc2_controller/src/main.rs:99: response generated in 91.817µs
-2024-08-10T03:31:41.749191Z DEBUG sc2_controller/src/main.rs:96: started POST /start
-2024-08-10T03:31:41.749232Z DEBUG sc2_controller/src/main.rs:96: started POST /start
-2024-08-10T03:31:41.750023Z DEBUG sc2_controller/src/main.rs:99: response generated in 792.002µs
-2024-08-10T03:31:41.750049Z DEBUG sc2_controller/src/main.rs:99: response generated in 857.705µs
-2024-08-10T03:32:13.951116Z DEBUG sc2_controller/src/main.rs:96: started POST /terminate_all
-2024-08-10T03:32:13.951187Z DEBUG common/src/api/process.rs:120: Terminating procs on port 9113
-2024-08-10T03:32:13.951274Z DEBUG common/src/api/process.rs:120: Terminating procs on port 9692
-2024-08-10T03:32:13.951356Z DEBUG sc2_controller/src/main.rs:99: response generated in 244.737µs
-2024-08-10T03:32:18.952317Z DEBUG sc2_controller/src/main.rs:96: started POST /shutdown
-2024-08-10T03:32:18.952407Z  INFO shutdown: common/src/api/process.rs:187: Shutdown request received. Terminating all running processes
-2024-08-10T03:32:18.952436Z  INFO shutdown: common/src/api/process.rs:196: Shutting down...
-2024-08-10T03:32:18.952463Z DEBUG sc2_controller/src/main.rs:99: response generated in 149.214µs
+2024-08-10T06:02:46.368029Z DEBUG sc2_controller/src/main.rs:123: listening on 0.0.0.0:8083
+2024-08-10T06:02:46.382797Z DEBUG sc2_controller/src/main.rs:96: started POST /terminate_all
+2024-08-10T06:02:46.382864Z DEBUG sc2_controller/src/main.rs:99: response generated in 68.866µs
+2024-08-10T06:02:46.383191Z DEBUG sc2_controller/src/main.rs:96: started GET /find_map/BerlingradAIE
+2024-08-10T06:02:46.383292Z DEBUG sc2_controller/src/main.rs:99: response generated in 102.27µs
+2024-08-10T06:02:46.383434Z DEBUG sc2_controller/src/main.rs:96: started POST /start
+2024-08-10T06:02:46.383477Z DEBUG sc2_controller/src/main.rs:96: started POST /start
+2024-08-10T06:02:46.384283Z DEBUG sc2_controller/src/main.rs:99: response generated in 805.632µs
+2024-08-10T06:02:46.384299Z DEBUG sc2_controller/src/main.rs:99: response generated in 864.62µs
+2024-08-10T06:03:18.559053Z DEBUG sc2_controller/src/main.rs:96: started POST /terminate_all
+2024-08-10T06:03:18.559126Z DEBUG common/src/api/process.rs:120: Terminating procs on port 9031
+2024-08-10T06:03:18.559210Z DEBUG common/src/api/process.rs:120: Terminating procs on port 9641
+2024-08-10T06:03:18.559290Z DEBUG sc2_controller/src/main.rs:99: response generated in 241.149µs
+2024-08-10T06:03:23.560574Z DEBUG sc2_controller/src/main.rs:96: started POST /shutdown
+2024-08-10T06:03:23.560640Z  INFO shutdown: common/src/api/process.rs:187: Shutdown request received. Terminating all running processes
+2024-08-10T06:03:23.560666Z  INFO shutdown: common/src/api/process.rs:196: Shutting down...
+2024-08-10T06:03:23.560689Z DEBUG sc2_controller/src/main.rs:99: response generated in 117.315µs

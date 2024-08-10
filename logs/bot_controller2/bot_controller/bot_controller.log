@@ -1,23 +1,23 @@
-2024-08-10T03:31:41.737565Z DEBUG bot_controller/src/main.rs:136: listening on 0.0.0.0:8082
-2024-08-10T03:31:41.748496Z DEBUG bot_controller/src/main.rs:105: started POST /terminate_all
-2024-08-10T03:31:41.748559Z DEBUG bot_controller/src/main.rs:108: response generated in 64.257µs
-2024-08-10T03:31:41.750367Z DEBUG bot_controller/src/main.rs:105: started POST /start
-2024-08-10T03:31:41.750663Z DEBUG start_bot{start_bot=StartBot { bot_name: "loser_bot", bot_type: Python, opponent_id: "1", player_num: Two, match_id: 3, process_key: 9692, should_download: false }}: bot_controller/src/routes.rs:165: Bot log dir exists
-2024-08-10T03:31:41.750684Z DEBUG start_bot{start_bot=StartBot { bot_name: "loser_bot", bot_type: Python, opponent_id: "1", player_num: Two, match_id: 3, process_key: 9692, should_download: false }}: bot_controller/src/routes.rs:170: Bot log path: "/logs/loser_bot/stderr.log"
-2024-08-10T03:31:41.750726Z DEBUG start_bot{start_bot=StartBot { bot_name: "loser_bot", bot_type: Python, opponent_id: "1", player_num: Two, match_id: 3, process_key: 9692, should_download: false }}: bot_controller/src/routes.rs:182: Log files created: "/logs/loser_bot/stderr.log"
-2024-08-10T03:31:41.750811Z DEBUG start_bot{start_bot=StartBot { bot_name: "loser_bot", bot_type: Python, opponent_id: "1", player_num: Two, match_id: 3, process_key: 9692, should_download: false }}: bot_controller/src/routes.rs:255: Starting bot with command cd "/bots/loser_bot" && "python" "run.py" "--GamePort" "8080" "--LadderServer" "127.0.0.1" "--StartPort" "8080" "--OpponentId" "1"
-2024-08-10T03:31:43.767123Z DEBUG bot_controller/src/main.rs:108: response generated in 2.016754908s
-2024-08-10T03:32:13.855534Z DEBUG bot_controller/src/main.rs:105: started GET /download/bot/loser_bot/log
-2024-08-10T03:32:13.855576Z DEBUG bot_controller/src/main.rs:105: started GET /download/bot/loser_bot/data
-2024-08-10T03:32:13.855590Z DEBUG download_bot_log{bot_name="loser_bot"}: bot_controller/src/routes.rs:358: Log path: "/logs/loser_bot/stderr.log"
-2024-08-10T03:32:13.855766Z DEBUG bot_controller/src/main.rs:108: response generated in 233.412µs
-2024-08-10T03:32:13.858933Z DEBUG bot_controller/src/main.rs:108: response generated in 3.356301ms
-2024-08-10T03:32:13.899789Z DEBUG bot_controller/src/main.rs:105: started GET /download/controller_log
-2024-08-10T03:32:13.899910Z DEBUG bot_controller/src/main.rs:108: response generated in 123.099µs
-2024-08-10T03:32:13.951087Z DEBUG bot_controller/src/main.rs:105: started POST /terminate_all
-2024-08-10T03:32:13.951144Z DEBUG common/src/api/process.rs:120: Terminating procs on port 53208
-2024-08-10T03:32:18.951651Z DEBUG bot_controller/src/main.rs:108: response generated in 5.000564576s
-2024-08-10T03:32:18.952252Z DEBUG bot_controller/src/main.rs:105: started POST /shutdown
-2024-08-10T03:32:18.952296Z  INFO shutdown: common/src/api/process.rs:187: Shutdown request received. Terminating all running processes
-2024-08-10T03:32:18.952322Z  INFO shutdown: common/src/api/process.rs:196: Shutting down...
-2024-08-10T03:32:18.952341Z DEBUG bot_controller/src/main.rs:108: response generated in 89.637µs
+2024-08-10T06:02:46.367973Z DEBUG bot_controller/src/main.rs:136: listening on 0.0.0.0:8082
+2024-08-10T06:02:46.382794Z DEBUG bot_controller/src/main.rs:105: started POST /terminate_all
+2024-08-10T06:02:46.382859Z DEBUG bot_controller/src/main.rs:108: response generated in 67.429µs
+2024-08-10T06:02:46.384554Z DEBUG bot_controller/src/main.rs:105: started POST /start
+2024-08-10T06:02:46.384815Z DEBUG start_bot{start_bot=StartBot { bot_name: "loser_bot", bot_type: Python, opponent_id: "1", player_num: Two, match_id: 5, process_key: 9641, should_download: false }}: bot_controller/src/routes.rs:165: Bot log dir exists
+2024-08-10T06:02:46.384832Z DEBUG start_bot{start_bot=StartBot { bot_name: "loser_bot", bot_type: Python, opponent_id: "1", player_num: Two, match_id: 5, process_key: 9641, should_download: false }}: bot_controller/src/routes.rs:170: Bot log path: "/logs/loser_bot/stderr.log"
+2024-08-10T06:02:46.384873Z DEBUG start_bot{start_bot=StartBot { bot_name: "loser_bot", bot_type: Python, opponent_id: "1", player_num: Two, match_id: 5, process_key: 9641, should_download: false }}: bot_controller/src/routes.rs:182: Log files created: "/logs/loser_bot/stderr.log"
+2024-08-10T06:02:46.384903Z DEBUG start_bot{start_bot=StartBot { bot_name: "loser_bot", bot_type: Python, opponent_id: "1", player_num: Two, match_id: 5, process_key: 9641, should_download: false }}: bot_controller/src/routes.rs:255: Starting bot with command cd "/bots/loser_bot" && "python" "run.py" "--GamePort" "8080" "--LadderServer" "127.0.0.1" "--StartPort" "8080" "--OpponentId" "1"
+2024-08-10T06:02:48.397631Z DEBUG bot_controller/src/main.rs:108: response generated in 2.01307606s
+2024-08-10T06:03:18.465450Z DEBUG bot_controller/src/main.rs:105: started GET /download/bot/loser_bot/log
+2024-08-10T06:03:18.465511Z DEBUG download_bot_log{bot_name="loser_bot"}: bot_controller/src/routes.rs:358: Log path: "/logs/loser_bot/stderr.log"
+2024-08-10T06:03:18.465634Z DEBUG bot_controller/src/main.rs:105: started GET /download/bot/loser_bot/data
+2024-08-10T06:03:18.465695Z DEBUG bot_controller/src/main.rs:108: response generated in 245.157µs
+2024-08-10T06:03:18.469143Z DEBUG bot_controller/src/main.rs:108: response generated in 3.508708ms
+2024-08-10T06:03:18.510441Z DEBUG bot_controller/src/main.rs:105: started GET /download/controller_log
+2024-08-10T06:03:18.510562Z DEBUG bot_controller/src/main.rs:108: response generated in 122.5µs
+2024-08-10T06:03:18.559034Z DEBUG bot_controller/src/main.rs:105: started POST /terminate_all
+2024-08-10T06:03:18.559080Z DEBUG common/src/api/process.rs:120: Terminating procs on port 40604
+2024-08-10T06:03:23.559713Z DEBUG bot_controller/src/main.rs:108: response generated in 5.000679003s
+2024-08-10T06:03:23.560605Z DEBUG bot_controller/src/main.rs:105: started POST /shutdown
+2024-08-10T06:03:23.560654Z  INFO shutdown: common/src/api/process.rs:187: Shutdown request received. Terminating all running processes
+2024-08-10T06:03:23.560676Z  INFO shutdown: common/src/api/process.rs:196: Shutting down...
+2024-08-10T06:03:23.560696Z DEBUG bot_controller/src/main.rs:108: response generated in 91.871µs
