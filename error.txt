@@ -1,0 +1,26 @@
+sc2_controller-1    | Listening on: 0.0.0.0:9113
+sc2_controller-1    | Listening on: 0.0.0.0:9692
+sc2_controller-1    | Startup Phase 3 complete. Ready for commands.
+sc2_controller-1    | Startup Phase 3 complete. Ready for commands.
+bot_controller2-1   | 2024-08-10T03:31:43.767143Z DEBUG bot_controller/src/main.rs:108: response generated in 2.016754908s
+sc2_controller-1    | ConnectHandler: Request from 127.0.0.1:44460 accepted
+sc2_controller-1    | ReadyHandler: 127.0.0.1:44460 ready
+bot_controller1-1   | 2024-08-10T03:32:13.853832Z DEBUG bot_controller/src/main.rs:108: response generated in 32.103390444s
+proxy_controller-1  | 2024-08-10T03:32:13.854093Z ERROR common/src/api/api_reference/mod.rs:232: ResponseError(ResponseContent { status: 400, api_error_message: ApiErrorMessage { error: "Could not find port for started process" } })
+proxy_controller-1  | 2024-08-10T03:32:13.854126Z ERROR proxy_controller/src/match_scheduler/mod.rs:215: Failed to start bot 1: error in response: status code 400 Bad Request
+proxy_controller-1  | Error:ApiErrorMessage { error: "Could not find port for started process" }
+proxy_controller-1  | 2024-08-10T03:32:13.854145Z  INFO proxy_controller/src/match_scheduler/mod.rs:250: AiArenaGameResult { match_id: 3, bot1_avg_step_time: None, bot1_tags: None, bot2_avg_step_time: None, bot2_tags: None, result: InitializationError, game_steps: 0 }
+
+bot_controller1-1   | 2024-08-10T03:31:41.740919Z DEBUG bot_controller/src/main.rs:136: listening on 0.0.0.0:8081
+
+Stderr log will show 127.0.0.1:8080 for listening on...  
+Seems there is a mismatch here.
+
+ransak@ransak:~/bots/local-play-bootstrap(main)
+$ docker compose -f docker-compose-host-network.yml up
+
+
+stderr.log blank_bot
+Connecting to port 8080
+Connecting to 127.0.0.1:8080...
+

@@ -1,0 +1,23 @@
+2024-08-10T03:31:38.739341Z  INFO proxy_controller/src/match_scheduler/mod.rs:35: Arena Client started
+2024-08-10T03:31:38.739397Z DEBUG proxy_controller/src/main.rs:150: listening on 0.0.0.0:8080
+2024-08-10T03:31:38.739859Z  INFO proxy_controller/src/match_scheduler/mod.rs:65: Waiting for controllers to become ready
+2024-08-10T03:31:41.748778Z  INFO proxy_controller/src/match_scheduler/mod.rs:98: Sending start requests to SC2
+2024-08-10T03:31:41.748858Z  INFO proxy_controller/src/match_scheduler/mod.rs:120: Starting Game - Round 0
+2024-08-10T03:31:41.748870Z  INFO proxy_controller/src/match_scheduler/mod.rs:121: blank_bot vs loser_bot
+2024-08-10T03:31:41.750174Z DEBUG proxy_controller/src/match_scheduler/mod.rs:140: SC2-1 Response:
+StartResponse { status: Success, status_reason: "", port: 9113, process_key: 9113 }
+2024-08-10T03:31:41.750205Z DEBUG proxy_controller/src/match_scheduler/mod.rs:141: SC2-2 Response:
+StartResponse { status: Success, status_reason: "", port: 9692, process_key: 9692 }
+2024-08-10T03:31:41.750218Z DEBUG proxy_controller/src/match_scheduler/mod.rs:167: Starting bots
+2024-08-10T03:31:42.218482Z DEBUG websocket{addr=127.0.0.1:53208}: proxy_controller/src/ws_routes.rs:40: Connection from 127.0.0.1:53208
+2024-08-10T03:31:42.218515Z DEBUG websocket{addr=127.0.0.1:53208}: proxy_controller/src/ws_routes.rs:45: Got free SC2 URL: Some(SC2Url { host: "127.0.0.1", port: 9113, is_allocated: true })
+2024-08-10T03:31:42.218529Z DEBUG websocket{addr=127.0.0.1:53208}: proxy_controller/src/ws_routes.rs:219: Connecting to the SC2 process: "ws://127.0.0.1:9113/sc2api", "127.0.0.1:9113"
+2024-08-10T03:32:13.854057Z ERROR common/src/api/api_reference/mod.rs:232: ResponseError(ResponseContent { status: 400, api_error_message: ApiErrorMessage { error: "Could not find port for started process" } })
+2024-08-10T03:32:13.854111Z ERROR proxy_controller/src/match_scheduler/mod.rs:215: Failed to start bot 1: error in response: status code 400 Bad Request
+Error:ApiErrorMessage { error: "Could not find port for started process" }
+2024-08-10T03:32:13.854136Z  INFO proxy_controller/src/match_scheduler/mod.rs:250: AiArenaGameResult { match_id: 3, bot1_avg_step_time: None, bot1_tags: None, bot2_avg_step_time: None, bot2_tags: None, result: InitializationError, game_steps: 0 }
+2024-08-10T03:32:13.854150Z  INFO proxy_controller/src/match_scheduler/mod.rs:251: Match finished in 32.105294925s
+2024-08-10T03:32:18.951948Z  INFO proxy_controller/src/match_scheduler/mod.rs:284: Finished games in 37203
+2024-08-10T03:32:18.951997Z DEBUG common/src/api/api_reference/mod.rs:116: Calling shutdown endpoint api="BotController" url="http://127.0.0.1:8081/shutdown"
+2024-08-10T03:32:18.952056Z DEBUG common/src/api/api_reference/mod.rs:116: Calling shutdown endpoint api="BotController" url="http://127.0.0.1:8082/shutdown"
+2024-08-10T03:32:18.952091Z DEBUG common/src/api/api_reference/mod.rs:116: Calling shutdown endpoint api="SC2Controller" url="http://127.0.0.1:8083/shutdown"

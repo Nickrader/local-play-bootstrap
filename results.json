@@ -1,4 +1,19 @@
 {
   "results": [
+    {
+      "match": 1,
+      "type": "InitializationError",
+      "game_steps": 0
+    },
+    {
+      "match": 2,
+      "type": "InitializationError",
+      "game_steps": 0
+    },
+    {
+      "match": 3,
+      "type": "InitializationError",
+      "game_steps": 0
+    }
   ]
 }

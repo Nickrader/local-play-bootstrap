@@ -1,0 +1,23 @@
+2024-08-10T03:31:41.740895Z DEBUG bot_controller/src/main.rs:136: listening on 0.0.0.0:8081
+2024-08-10T03:31:41.748486Z DEBUG bot_controller/src/main.rs:105: started POST /terminate_all
+2024-08-10T03:31:41.748559Z DEBUG bot_controller/src/main.rs:108: response generated in 74.106µs
+2024-08-10T03:31:41.750375Z DEBUG bot_controller/src/main.rs:105: started POST /start
+2024-08-10T03:31:41.750610Z DEBUG start_bot{start_bot=StartBot { bot_name: "blank_bot", bot_type: CppLinux, opponent_id: "2", player_num: One, match_id: 3, process_key: 9113, should_download: false }}: bot_controller/src/routes.rs:165: Bot log dir exists
+2024-08-10T03:31:41.750625Z DEBUG start_bot{start_bot=StartBot { bot_name: "blank_bot", bot_type: CppLinux, opponent_id: "2", player_num: One, match_id: 3, process_key: 9113, should_download: false }}: bot_controller/src/routes.rs:170: Bot log path: "/logs/blank_bot/stderr.log"
+2024-08-10T03:31:41.750667Z DEBUG start_bot{start_bot=StartBot { bot_name: "blank_bot", bot_type: CppLinux, opponent_id: "2", player_num: One, match_id: 3, process_key: 9113, should_download: false }}: bot_controller/src/routes.rs:182: Log files created: "/logs/blank_bot/stderr.log"
+2024-08-10T03:31:41.750703Z DEBUG start_bot{start_bot=StartBot { bot_name: "blank_bot", bot_type: CppLinux, opponent_id: "2", player_num: One, match_id: 3, process_key: 9113, should_download: false }}: bot_controller/src/routes.rs:213: Setting bot file permissions
+2024-08-10T03:31:41.750735Z DEBUG start_bot{start_bot=StartBot { bot_name: "blank_bot", bot_type: CppLinux, opponent_id: "2", player_num: One, match_id: 3, process_key: 9113, should_download: false }}: bot_controller/src/routes.rs:255: Starting bot with command cd "/bots/blank_bot" && "./blank_bot" "--GamePort" "8080" "--LadderServer" "127.0.0.1" "--StartPort" "8080" "--OpponentId" "2"
+2024-08-10T03:32:13.853768Z DEBUG bot_controller/src/main.rs:108: response generated in 32.103390444s
+2024-08-10T03:32:13.855126Z DEBUG bot_controller/src/main.rs:105: started GET /download/bot/blank_bot/log
+2024-08-10T03:32:13.855166Z DEBUG download_bot_log{bot_name="blank_bot"}: bot_controller/src/routes.rs:358: Log path: "/logs/blank_bot/stderr.log"
+2024-08-10T03:32:13.855460Z DEBUG bot_controller/src/main.rs:108: response generated in 333.708µs
+2024-08-10T03:32:13.855764Z DEBUG bot_controller/src/main.rs:105: started GET /download/bot/blank_bot/data
+2024-08-10T03:32:13.858933Z DEBUG bot_controller/src/main.rs:108: response generated in 3.169799ms
+2024-08-10T03:32:13.899788Z DEBUG bot_controller/src/main.rs:105: started GET /download/controller_log
+2024-08-10T03:32:13.899920Z DEBUG bot_controller/src/main.rs:108: response generated in 133.589µs
+2024-08-10T03:32:13.951088Z DEBUG bot_controller/src/main.rs:105: started POST /terminate_all
+2024-08-10T03:32:13.951155Z DEBUG bot_controller/src/main.rs:108: response generated in 67.974µs
+2024-08-10T03:32:18.952282Z DEBUG bot_controller/src/main.rs:105: started POST /shutdown
+2024-08-10T03:32:18.952390Z  INFO shutdown: common/src/api/process.rs:187: Shutdown request received. Terminating all running processes
+2024-08-10T03:32:18.952627Z  INFO shutdown: common/src/api/process.rs:196: Shutting down...
+2024-08-10T03:32:18.952676Z DEBUG bot_controller/src/main.rs:108: response generated in 396.297µs

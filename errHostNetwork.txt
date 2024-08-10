@@ -1,0 +1,8 @@
+ransak@ransak:~/bots/local-play-bootstrap(main)
+$ docker compose -f docker-compose-host-network.yml up
+
+ransak@ransak:~/bots/local-play-bootstrap(main)
+$ docker compose -f docker-compose-host-network.yml up
+
+Error response from daemon: invalid volume specification: 'C:\Program Files (x86)\StarCraft II\Maps:/root/StarCraftII/maps:rw'
+
