@@ -1,2 +1,4 @@
 # Bot1 ID, Bot1 name, Bot1 race, Bot1 type, Bot2 ID, Bot2 name, Bot2 race, Bot2 type, Map
-1,basic_bot,T,python,2,loser_bot,T,python,BerlingradAIE
+#1,blank_bot,R,cpplinux,2,basic_bot,T,python,BerlingradAIE
+#1,blank_bot,R,cpplinux,2,basic_bot,T,python,Ladder2017Season1/BelShirVestigeLE NO WORKY, map argument doesn't like having sub-folder
+#1,blank_bot,R,cpplinux,2,basic_bot,T,python,BelShirVestigeLE
