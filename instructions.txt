@@ -1,0 +1,6 @@
+EDIT: Nvm, seems I got one to work, I'll have to play around see why it was breaking other times.
+hangs indefinitely with docker-compose up
+Using docker compose -f docker-compose-host-network.yml up
+Had trouble finding maps it seems, with my Lutris install not being an option in the .yml
+Can't use ~/ it seems for map path, requires /home/user/
+or use local maps ./maps (local to bootstrap repo)

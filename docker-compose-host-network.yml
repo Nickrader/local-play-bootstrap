@@ -10,8 +10,8 @@ services:
       - "./logs:/logs" # a sc2_controller folder will be created in the logs folder
       # SC2 Maps Path
       # Set this as "- PATH_TO_YOUR_MAPS_FOLDER:/root/StarCraftII/maps"
-#      - ./maps:/root/StarCraftII/maps
-      - /home/leon/Games/battlenet/drive_c/Program Files (x86)/StarCraft II/Maps/Ladder2017Season1:/root/StarCraftII/maps
+      - ./maps:/root/StarCraftII/maps
+#      - /home/leon/Games/battlenet/drive_c/Program Files (x86)/StarCraft II/Maps/Ladder2017Season1:/root/StarCraftII/maps
 #      - "~/Games/battlenet/drive_c/Program\ Files\ \(x86\)/StarCraft\ II/Maps:/root/StarCraftII/maps noWorky :(
 
 
